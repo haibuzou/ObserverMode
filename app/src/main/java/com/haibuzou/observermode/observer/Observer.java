@@ -2,6 +2,6 @@ package com.haibuzou.observermode.observer;
 
 
 
-public interface Observer {
-        void onChange();
+public interface Observer<T> {
+        void onChange(T data);
 }
